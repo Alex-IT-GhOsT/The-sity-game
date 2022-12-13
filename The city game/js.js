@@ -122,7 +122,7 @@ let valu; //значение компьютера
 
 field.addEventListener('keydown',function(ev){
     let value = field.value.replace(/[\d,!,@,#,$,%,^,&,*,(,),_,-,=,+,'',",.,/,;,:,]/g, '');
-    field.value = value;
+    field.value = value.toLowerCase();
     
         if(countRolls(count) === "Xод игрока" && count === 2){
           
