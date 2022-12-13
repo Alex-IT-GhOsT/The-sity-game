@@ -1,0 +1,79 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: gainsboro;
+}
+.container{
+    padding: 25px;
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: gainsboro;
+    position: relative;
+}
+.text{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    
+    
+}
+#field{
+    width: 100%;
+    padding: 10px;
+}
+
+#message{
+    margin: 20px;
+    text-align: center;
+}
+
+.city{
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.cities{
+    display: flex;
+    justify-content: space-between;
+}
+
+.link{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    
+}
+.link a{
+    text-decoration: none;
+    border: 1px dashed;
+    color: white;
+    background-color: black;
+    padding: 10px;
+}
+
+.link:not(.active){
+    display: none;
+}
+
+
+.timer{
+    position: absolute;
+    left: 0;
+    top: 10px;
+    padding-left: 20px;
+    
+}
+
+.timer:not(.active){
+    display: none;
+} 
+
+
+ol{
+    list-style-position: inside;
+}
